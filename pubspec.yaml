@@ -1,0 +1,95 @@
+name: lireo
+description: "LIREO — lecteur eBook premium, hors ligne et sans publicité."
+publish_to: 'none'
+version: 0.1.0+1
+
+environment:
+  sdk: ^3.14.0
+
+dependencies:
+  archive: ^4.7.1
+  crypto: ^3.0.8
+  file_picker: ^13.4.0
+  flutter:
+    sdk: flutter
+  flutter_local_notifications: ^22.0.0
+  flutter_timezone: ^5.1.1
+  flutter_tts: ^4.2.5
+  flutter_web_auth_2: ^5.1.0
+  google_sign_in: ^7.2.0
+  home_widget: ^0.10.0
+  html: ^0.15.7
+  http: ^1.6.0
+  local_auth: ^3.0.2
+  markdown: ^7.3.1
+  material_ui: ^1.1.0
+  path: ^1.9.1
+  path_provider: ^2.1.6
+  pdfrx: ^3.0.3
+  permission_handler: ^12.0.1
+  provider: ^6.1.5+1
+  screen_brightness: ^2.1.11
+  share_plus: ^13.3.1
+  shared_preferences: ^2.5.6
+  sqflite: ^2.4.6
+  sqflite_common_ffi: ^2.4.7
+  timezone: ^0.11.2
+  url_launcher: ^6.3.3
+  wakelock_plus: ^1.8.2
+  xml: ^7.1.0
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_driver:
+    sdk: flutter
+  integration_test:
+    sdk: flutter
+  flutter_lints: ^6.0.0
+flutter:
+  uses-material-design: true
+  fonts:
+    - family: Inter
+      fonts:
+        - asset: assets/fonts/inter-400-normal.ttf
+        - asset: assets/fonts/inter-500-normal.ttf
+          weight: 500
+        - asset: assets/fonts/inter-600-normal.ttf
+          weight: 600
+        - asset: assets/fonts/inter-700-normal.ttf
+          weight: 700
+    - family: Lora
+      fonts:
+        - asset: assets/fonts/lora-400-normal.ttf
+        - asset: assets/fonts/lora-400-italic.ttf
+          style: italic
+        - asset: assets/fonts/lora-500-normal.ttf
+          weight: 500
+        - asset: assets/fonts/lora-600-normal.ttf
+          weight: 600
+        - asset: assets/fonts/lora-700-normal.ttf
+          weight: 700
+    - family: Literata
+      fonts:
+        - asset: assets/fonts/literata-400-normal.ttf
+        - asset: assets/fonts/literata-400-italic.ttf
+          style: italic
+        - asset: assets/fonts/literata-700-normal.ttf
+          weight: 700
+        - asset: assets/fonts/literata-700-italic.ttf
+          weight: 700
+          style: italic
+    - family: Merriweather
+      fonts:
+        - asset: assets/fonts/merriweather-400-normal.ttf
+        - asset: assets/fonts/merriweather-400-italic.ttf
+          style: italic
+        - asset: assets/fonts/merriweather-700-normal.ttf
+          weight: 700
+    - family: Atkinson
+      fonts:
+        - asset: assets/fonts/atkinson-hyperlegible-400-normal.ttf
+        - asset: assets/fonts/atkinson-hyperlegible-400-italic.ttf
+          style: italic
+        - asset: assets/fonts/atkinson-hyperlegible-700-normal.ttf
+          weight: 700
