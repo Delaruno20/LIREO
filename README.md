@@ -68,6 +68,19 @@ flutter test                     # tests unitaires
 flutter test test_screens/screens_test.dart --update-goldens   # régénère les captures
 ```
 
+### Signature release
+
+`android/key.properties` (non versionné) pointe vers la clé de signature :
+
+```properties
+storeFile=/chemin/vers/lireo-release.jks
+storePassword=…
+keyAlias=lireo
+keyPassword=…
+```
+
+Sans ce fichier, `flutter build apk --release` signe avec la clé debug.
+
 ### Mesures de performance (téléphone, mode profile)
 
 ```bash
